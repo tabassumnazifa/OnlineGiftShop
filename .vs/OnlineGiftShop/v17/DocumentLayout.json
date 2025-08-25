@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\FlowerShopAuth\\OnlineGiftShop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7FBECFE2-CFC9-43D4-82BD-DEEBD232ACEC}|FlowerShopAuth\\FlowerShopAuth.csproj|c:\\users\\hp\\desktop\\flowershopauth\\onlinegiftshop\\flowershopauth\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FBECFE2-CFC9-43D4-82BD-DEEBD232ACEC}|FlowerShopAuth\\FlowerShopAuth.csproj|solutionrelative:flowershopauth\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FBECFE2-CFC9-43D4-82BD-DEEBD232ACEC}|FlowerShopAuth\\FlowerShopAuth.csproj|c:\\users\\hp\\desktop\\flowershopauth\\onlinegiftshop\\flowershopauth\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FBECFE2-CFC9-43D4-82BD-DEEBD232ACEC}|FlowerShopAuth\\FlowerShopAuth.csproj|solutionrelative:flowershopauth\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7FBECFE2-CFC9-43D4-82BD-DEEBD232ACEC}|FlowerShopAuth\\FlowerShopAuth.csproj|c:\\users\\hp\\desktop\\flowershopauth\\onlinegiftshop\\flowershopauth\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FBECFE2-CFC9-43D4-82BD-DEEBD232ACEC}|FlowerShopAuth\\FlowerShopAuth.csproj|solutionrelative:flowershopauth\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,6 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FlowerShopAuth\\OnlineGiftShop\\FlowerShopAuth\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "FlowerShopAuth\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FlowerShopAuth\\OnlineGiftShop\\FlowerShopAuth\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "FlowerShopAuth\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T11:12:07.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FlowerShopAuth\\OnlineGiftShop\\FlowerShopAuth\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FlowerShopAuth\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\FlowerShopAuth\\OnlineGiftShop\\FlowerShopAuth\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FlowerShopAuth\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T11:12:05.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\FlowerShopAuth\\OnlineGiftShop\\FlowerShopAuth\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "FlowerShopAuth\\Controllers\\AccountController.cs",
