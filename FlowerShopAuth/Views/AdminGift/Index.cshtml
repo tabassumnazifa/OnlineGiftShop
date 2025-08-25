@@ -1,0 +1,108 @@
+﻿@model IEnumerable<FlowerShopAuth.Models.Gift>
+
+@{
+    ViewData["Title"] = "Manage Gifts";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #ffe6f0;
+        padding: 20px 40px;
+    }
+
+    h2 {
+        color: #d63384;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .quote {
+        font-style: italic;
+        color: #a83279;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .btn-custom {
+        border-radius: 25px;
+        padding: 5px 15px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+        .btn-custom:hover {
+            transform: scale(1.05);
+        }
+
+    .gift-card {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 15px;
+        padding: 15px;
+        max-width: 600px;
+    }
+
+        .gift-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+
+    .gift-details {
+        flex: 1;
+    }
+
+        .gift-details h5 {
+            margin: 0;
+            color: #d63384;
+            font-weight: 600;
+        }
+
+        .gift-details p {
+            margin: 3px 0;
+        }
+
+    .gift-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+</style>
+
+<div>
+    <h2>🌸 Manage Gifts 🌸</h2>
+    <p class="quote">"Flowers are the music of the ground. 🌷 Let your shop bloom with happiness!"</p>
+
+    <p>
+        <a class="btn btn-success btn-custom" asp-action="Create">Add New Gift</a>
+    </p>
+
+    <div>
+        @foreach (var gift in Model)
+        {
+            <div class="gift-card">
+                @if (!string.IsNullOrEmpty(gift.Image))
+                {
+                    <img src="@gift.Image" alt="@gift.Name" />
+                }
+                <div class="gift-details">
+                    <h5>@gift.Name</h5>
+                    <p><strong>Price:</strong> @gift.Price.ToString("C")</p>
+                    <p><strong>Description:</strong> @gift.Description</p>
+                </div>
+                <div class="gift-actions">
+                    <a class="btn btn-primary btn-sm btn-custom" asp-action="Edit" asp-route-id="@gift.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm btn-custom" asp-action="Delete" asp-route-id="@gift.Id">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
